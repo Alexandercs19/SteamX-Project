@@ -1,12 +1,20 @@
 <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" routerLink="home">Stema X</a>
-        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <!--<form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>-->
+        <h3><a class="navbar-brand" routerLink="home">Steam X</a></h3>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="/home" routerLink="home">Home</a>
+                </li>
                 <li class="nav-item dropdown me-auto">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
@@ -28,14 +36,50 @@
                     </ul>
                 </li>
                 <li class="nav-item me-auto">
-                    <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    <a class="nav-link active" aria-current="page" href="/contact" routerLink="contact">Contact</a>
                 </li>
-
             </ul>
         </div>
     </div>
 </nav>
 
 
-
 <router-outlet></router-outlet>
+
+
+<!--aqui comienza el footer-->
+<div class="Footer-Section">
+    <!--aqui comienza el footer-->
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Links</h3>
+                    <ul class="list-unstyled">
+                        <li><a class="text-white" href="/home" routerlink="home">Home</a></li>
+                        <li><a href="/home" class="text-white" routerlink="home">About Us</a></li>
+                        <li><a href="/contact" class="text-white" routerlink="contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Contacts</h3>
+                    <p>Address:123 Calle Principal</p>
+                    <p>Email: info&commat;example.com</p>
+                    <p>Telephone: 888-555-1234</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Social Media</h3>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--aqui termina el footer-->
