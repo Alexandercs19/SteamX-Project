@@ -1,0 +1,49 @@
+<div class="header1">
+    <h1 class="title1">
+        Upholstery Cleaning
+    </h1>
+    <section class="img_header">
+        <h1>aqui imagen de un mueble o algo asi  pero de background</h1>
+        <p>justo debajo de la foto quiero poner el texto diciendo lo bueno del upho cleaning</p>
+        <p>aqui en grande una frase dura tipo "el celaning e bueno pa la salud"</p>
+    </section>
+</div>
+
+<div class="body_beneficts">
+    <section class="bene1">
+        <!--<img src="" alt="">-->
+        <div class="png1"></div>
+        <p>aqui unas imagenes como las del our story con info en el costado</p>
+    </section>
+
+    <section class="bene2">
+        <div class="png2"></div>
+        <p class="teto">aqui lo mismo que arriba pero con el texto a la derecha jeje</p>
+        <!--<img src="" alt="">-->
+    </section>
+</div>
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div *ngFor="let image of ['lana', 'lino', 'poliester', 'seda']; let i = index" class="carousel-item" [class.active]="i === 0">
+      <img [src]="'/assets/images/' + image + '.jpg'" class="d-block w-100" alt="{{image}}">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<!-- slider -->
+
+
+
+<div class="disccount">
+
+</div>

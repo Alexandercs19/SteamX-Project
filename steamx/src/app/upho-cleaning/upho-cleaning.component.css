@@ -1,0 +1,29 @@
+.header1{
+    margin: 0;
+    display: grid;
+    height: 65vh;
+    place-items: center;
+}
+
+.png1, .png2{
+background-color: blue;
+height: 25vh;
+width: 18vh;
+margin-right: 10px;
+margin-left: 25%;
+}
+
+.bene1, .bene2{
+    display: flex;
+    align-items: center;
+}
+
+
+.teto{
+    margin: 0;
+}
+
+.bodytype{
+    height: 12vh;
+
+}
