@@ -1,0 +1,12 @@
+
+.header1{
+    margin: 0;
+    display: grid;
+    height: 25vh;
+    place-items: center;
+}
+.phrase{
+    margin: 0;
+    display: grid;
+    place-items: center;
+}
