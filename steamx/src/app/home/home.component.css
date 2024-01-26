@@ -60,6 +60,7 @@
 .HiringStaffing-Section {
     border-bottom: 1px solid #ddd;
     padding-bottom: 20px;
+
 }
 
 
@@ -67,6 +68,9 @@
 .Subscriber-Section {
     border-bottom: 1px solid #ddd;
     padding-bottom: 20px;
+    display: grid;
+    height: 25vh;
+    place-items: center;
 }
 
 
@@ -89,14 +93,15 @@
 }
 
 .HiringStaffing-div {
-    align-items: center;
-    display: flex;
+    display: grid;
+    height: 55vh;
+    place-items: center;
 }
 
-.Hiring-Title,
-.Staffing-Title {
-    align-items: center;
-    margin-right: 10px;
+.Hiring-Title{
+    display: flex;
+    position: fixed;
+    margin-left: 30%;
 
     /* Ajusta el margen entre los títulos según tus preferencias */
 }
