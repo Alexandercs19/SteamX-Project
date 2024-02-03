@@ -9,7 +9,7 @@ import { HiringComponent } from './hiring/hiring.component';
 import { ContactComponent } from './contact/contact.component';
 
 export const routes: Routes = [
-    { path: '', component: HomeComponent, pathMatch: 'full' },
+    { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: 'home', component: HomeComponent, pathMatch: 'full' },
     { path: 'tile-cleaning', component: TileCleaningComponent, pathMatch: 'full' },
     { path: 'upho', component: UphoCleaningComponent, pathMatch: 'full' },
