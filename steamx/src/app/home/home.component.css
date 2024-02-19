@@ -92,16 +92,17 @@
 
 }
 
-.HiringStaffing-div {
-    display: grid;
-    height: 55vh;
-    place-items: center;
+.HiringStaffing_div{
+    display: inline-flex;
+    margin-right: 20px;
+    align-items: center;
+    align-content: center;
+    
 }
 
 .Hiring-Title{
-    display: flex;
-    position: fixed;
-    margin-left: 30%;
+    display: inline-block;
+    margin-right: 20px;
 
     /* Ajusta el margen entre los títulos según tus preferencias */
 }
