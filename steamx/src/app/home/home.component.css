@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .navbar-nav {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 80%;
@@ -18,10 +24,18 @@
 
 .Introduction-Section {
     border-bottom: 1px solid #ddd;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    background-image: url('/assets/images/Carpett.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
-
+video {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
 
 .Titulos {
     text-align: center;
@@ -67,10 +81,11 @@
 
 .Subscriber-Section {
     border-bottom: 1px solid #ddd;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     display: grid;
     height: 25vh;
     place-items: center;
+
 }
 
 
@@ -89,20 +104,51 @@
 
 .Steamxx {
     font-weight: bold;
+    color: black;
+
 
 }
 
-.HiringStaffing_div{
+.Steamxxba {
+    color: black;
+
+    padding-bottom: 15px;
+}
+
+.HiringStaffing_div {
+
     display: inline-flex;
+    flex-direction: row;
     margin-right: 20px;
     align-items: center;
     align-content: center;
-    
+
 }
 
-.Hiring-Title{
+.Hiring-Title {
     display: inline-block;
     margin-right: 20px;
 
     /* Ajusta el margen entre los títulos según tus preferencias */
+}
+
+.Subscriber-Section {
+    background-color: #011627;
+
+
+}
+
+.Container-Subscriber {
+    text-align: start;
+    color: white;
+    font-size: xx-large;
+}
+
+.botonSubs {
+    border-radius: 0%;
+    padding: 10 0px;
+    font-size: larger;
+    position: relative;
+    top: 26px;
+    left: 380px;
 }

@@ -3,10 +3,24 @@
     text-align: center;
     align-items: center;
     display: contents;
+    color: black;
+
+
 
 }
-.navbar{
-    background-color: cadetblue;
+
+.navbar {
+    padding-top: 35px;
+    background-color: #ffffff;
+    padding-bottom: 35px;
+    font-size: 20px;
+
+}
+
+.vl {
+    border-left: 3px solid black;
+    height: 50px;
+    padding: 4px;
 }
 
 
