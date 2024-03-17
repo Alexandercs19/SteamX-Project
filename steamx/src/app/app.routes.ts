@@ -8,6 +8,7 @@ import { StaffingComponent } from './staffing/staffing.component';
 import { HiringComponent } from './hiring/hiring.component';
 import { ContactComponent } from './contact/contact.component';
 
+
 export const routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: 'home', component: HomeComponent, pathMatch: 'full' },
@@ -17,5 +18,6 @@ export const routes: Routes = [
     { path: 'hwWork', component: HwWorkComponent, pathMatch: 'full' },
     { path: 'staffing', component: StaffingComponent, pathMatch: 'full' },
     { path: 'hiring', component: HiringComponent, pathMatch: 'full' },
-    { path: 'contact', component: ContactComponent, pathMatch: 'full' }
+    { path: 'contact', component: ContactComponent, pathMatch: 'full' },
+    { path: 'Carpet-Cleaning', component: ContactComponent, pathMatch: 'full' },
 ];

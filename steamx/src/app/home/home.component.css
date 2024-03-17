@@ -15,7 +15,7 @@
     max-width: 1200px;
     overflow: hidden;
     margin: auto;
-    padding: 60px 0;
+    padding: 180px 0;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -35,6 +35,14 @@
 
 video {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Titulos {
@@ -48,6 +56,21 @@ video {
     color: rgb(0, 0, 0);
 }
 
+.ThisIsClass {
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 40px;
+    font-size: 55px;
+    color: white;
+    position: relative;
+    bottom: 40px;
+}
+
+.VideoIntroductionSection {
+    background-color: black;
+    padding: 90px;
+}
 
 .videoPlayer {
     display: flex;
@@ -59,11 +82,19 @@ video {
 
 }
 
+.HiringStaffingTittle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 39px;
+
+}
+
 .TituloHiringStaffing {
     text-align: center;
     padding: 60px 0;
     margin: auto;
     font-weight: bold;
+    font-size: 39px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,8 +107,6 @@ video {
     padding-bottom: 20px;
 
 }
-
-
 
 .Subscriber-Section {
     border-bottom: 1px solid #ddd;
@@ -103,25 +132,54 @@ video {
 }
 
 .Steamxx {
+    font-size: 65px;
     font-weight: bold;
-    color: black;
-
-
+    color: white;
+    padding-bottom: 10px;
 }
 
 .Steamxxba {
-    color: black;
-
+    color: white;
+    font-size: 25px;
     padding-bottom: 15px;
 }
 
 .HiringStaffing_div {
 
-    display: inline-flex;
-    flex-direction: row;
-    margin-right: 20px;
+    text-align: center;
+    padding: 60px 0;
+    margin: auto;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    align-content: center;
+    color: rgb(0, 0, 0);
+
+}
+
+.ServicesDiv {
+    text-align: center;
+    padding: 60px 0;
+    margin: auto;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ServicesCleaningClass {
+    padding: 25px;
+    margin-left: 55px;
+}
+
+.HiringTitle {
+    padding: 10px;
+    margin-right: 3px;
+}
+
+.StaffingTitle {
+
+    margin-left: 4px;
 
 }
 
@@ -131,6 +189,50 @@ video {
 
     /* Ajusta el margen entre los títulos según tus preferencias */
 }
+
+
+
+.vl {
+    border-left: 3px solid black;
+    height: 50px;
+    padding: 4px;
+}
+
+.vll {
+    height: 4px;
+    width: 50%;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 9px;
+
+}
+
+.vlll {
+    height: 4px;
+    width: 59%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 9px;
+
+}
+
+.vllll {
+    height: 4px;
+    width: 50%;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 9px;
+
+}
+
 
 .Subscriber-Section {
     background-color: #011627;
