@@ -33,12 +33,48 @@
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-video {
+#Video-Introduction {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     width: 100%;
     max-width: 1200px;
     overflow: hidden;
     margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#videoCarpet {
+    width: 80%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 35px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#videoUpholstery {
+    width: 80%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 35px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#videoTile {
+    width: 80%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 35px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -159,8 +195,9 @@ video {
 
 .ServicesDiv {
     text-align: center;
-    padding: 60px 0;
-    margin: auto;
+    padding: auto 0;
+    margin: auto 0;
+    padding-bottom: 95px;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -168,8 +205,14 @@ video {
 }
 
 .ServicesCleaningClass {
+    font-size: 22px;
     padding: 25px;
     margin-left: 55px;
+}
+
+.TittleTile {
+    position: relative;
+    bottom: 19px;
 }
 
 .HiringTitle {
@@ -253,4 +296,28 @@ video {
     position: relative;
     top: 26px;
     left: 380px;
+}
+
+.DefinitionCarpetCl {
+    font-size: 15px;
+}
+
+.DefinitionTileCL {
+    font-size: 15px;
+
+}
+
+.DefinitionUpholCL {
+    font-size: 15px;
+}
+
+.card {
+    text-align: center;
+    padding: auto 0;
+    margin: auto 0;
+    padding-bottom: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
