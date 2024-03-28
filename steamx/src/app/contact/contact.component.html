@@ -1,77 +1,47 @@
-<div class="Contact-Section">
-    <div class="Contact">
 
-        <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-            <div class="card-body">
-                <form class="row g-3">
-                    <div class="col-md-4">
-                        <label for="validationServer01" class="form-label">First name</label>
-                        <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
-                        <div class="valid-feedback">
-                            Looks good!
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <label for="validationServer02" class="form-label">Last name</label>
-                        <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
-                        <div class="valid-feedback">
-                            Looks good!
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <label for="validationServerUsername" class="form-label">Username</label>
-                        <div class="input-group has-validation">
-                            <span class="input-group-text" id="inputGroupPrepend3">&commat;</span>
-                            <input type="text" class="form-control is-invalid" id="validationServerUsername"
-                                aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
-                            <div id="validationServerUsernameFeedback" class="invalid-feedback">
-                                Please choose a username.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="validationServer03" class="form-label">City</label>
-                        <input type="text" class="form-control is-invalid" id="validationServer03"
-                            aria-describedby="validationServer03Feedback" required>
-                        <div id="validationServer03Feedback" class="invalid-feedback">
-                            Please provide a valid city.
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <label for="validationServer04" class="form-label">State</label>
-                        <select class="form-select is-invalid" id="validationServer04"
-                            aria-describedby="validationServer04Feedback" required>
-                            <option selected disabled value="">Choose...</option>
-                            <option>...</option>
-                        </select>
-                        <div id="validationServer04Feedback" class="invalid-feedback">
-                            Please select a valid state.
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <label for="validationServer05" class="form-label">Zip</label>
-                        <input type="text" class="form-control is-invalid" id="validationServer05"
-                            aria-describedby="validationServer05Feedback" required>
-                        <div id="validationServer05Feedback" class="invalid-feedback">
-                            Please provide a valid zip.
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="form-check">
-                            <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3"
-                                aria-describedby="invalidCheck3Feedback" required>
-                            <label class="form-check-label" for="invalidCheck3">
-                                Agree to terms and conditions
-                            </label>
-                            <div id="invalidCheck3Feedback" class="invalid-feedback">
-                                You must agree before submitting.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <button class="btn btn-primary" type="submit">Submit form</button>
-                    </div>
-                </form>
-            </div>
-        </div>
+
+<div class="col-sm-10 col-md-6 col-lg-12">
+
+
+<form action="" method="post" class="form-group">
+    <div class="form-group">
+        <label for="Name">Name</label>
+        <input type="text" placeholder="Introduce your name" maxlength="20" id="fist_name" name="Name" class="form-control">
+        <label for="last_name">Last Name</label>
+        <input type="text" placeholder="Introduce your last name" maxlength="30" id="last_name_" name="last_name" class="form-control">
     </div>
+    
+    <div class="form-group">
+        <label for="company_mail">Company</label>
+        <input type="text" placeholder="Introduce the name of the company mail" maxlength="20" id="email_company" name="company_mail" class="form-control">
+        <label for="company_name">Company Name</label>
+        <input type="text" placeholder="Introduce your company name" maxlength="20" id="company_name_" name="company_name" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="job">Job</label>
+        <input type="text" placeholder="Introduce your Job" maxlength="20" id="job_name" name="job" class="form-control">
+        <label for="industry">Industry</label>
+        <input type="text" placeholder="wa? 2" maxlength="20" id="ikn_man3" name="industry" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="zip-code">Zip Code</label>
+        <input type="text" placeholder="Introduce your Zip Code" maxlength="20" id="code" name="zip-code" class="form-control">
+        <label for="country">Country</label>
+        <input type="text" placeholder="Where you at" maxlength="20" id="country_name" name="country" class="form-control"> 
+    </div>
+
+    <div class="form-group">
+        <label for="questions">How can we hel you</label>
+        <input type="text" placeholder="wa?" maxlength="200" id="ikn_man" name="questions" class="form-control">
+    </div>
+    <div class="form-group">
+         <label for="#_personal">What is the ESTIMATED # OF STAFF THAT YOU NEED</label>
+        <input type="text" placeholder="Please place a number" maxlength="30" id="ikn_man2" name="#_personal" class="form-control">
+    </div >
+   <div class="form-group">
+        <label for="message">Your Message</label>
+        <input type="text" placeholder="message" maxlength="200" id="ikn_man4" name="message" class="form-control">
+   </div>
+
+</form>
+</div>
